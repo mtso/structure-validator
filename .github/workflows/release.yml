@@ -17,13 +17,13 @@ jobs:
           distribution: 'adopt'
           server-id: central
           server-username: MAVEN_USERNAME
-          server-password: MAVEN_PASSWORD
+          server-password: MAVEN_CENTRAL_TOKEN
           gpg-private-key: ${{ secrets.JRELEASER_GPG_SECRET_KEY }}
           gpg-passphrase: MAVEN_GPG_PASSPHRASE
       - name: Release to Maven Central
         env:
           MAVEN_USERNAME: ${{ secrets.JRELEASER_NEXUS2_USERNAME }}
-          MAVEN_PASSWORD: ${{ secrets.JRELEASER_NEXUS2_PASSWORD }}
+          MAVEN_CENTRAL_TOKEN: ${{ secrets.JRELEASER_NEXUS2_PASSWORD }}
           MAVEN_GPG_PASSPHRASE: ${{ secrets.JRELEASER_GPG_PASSPHRASE }}
         run: |
           export GPG_TTY=$(tty)
