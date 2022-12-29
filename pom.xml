@@ -103,7 +103,7 @@
                     <plugin>
                         <groupId>org.jreleaser</groupId>
                         <artifactId>jreleaser-maven-plugin</artifactId>
-                        <version>1.4.0-SNAPSHOT</version>
+                        <version>1.3.1</version>
                         <configuration>
                             <jreleaser>
                                 <signing>
@@ -118,6 +118,7 @@
                                                 <url>https://s01.oss.sonatype.org/service/local</url>;
                                                 <closeRepository>false</closeRepository>
                                                 <releaseRepository>false</releaseRepository>
+                                                <applyMavenCentralRules>false</applyMavenCentralRules>
                                                 <stagingRepositories>target/staging-deploy</stagingRepositories>
                                             </maven-central>
                                         </nexus2>
