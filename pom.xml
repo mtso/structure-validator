@@ -5,7 +5,7 @@
 
     <groupId>io.mtso</groupId>
     <artifactId>structure-validator</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.1</version>
     <packaging>pom</packaging>
     <name>structure-validator</name>
 
@@ -103,7 +103,7 @@
                     <plugin>
                         <groupId>org.jreleaser</groupId>
                         <artifactId>jreleaser-maven-plugin</artifactId>
-                        <version>1.3.1</version>
+                        <version>snapshot</version>
                         <configuration>
                             <jreleaser>
                                 <signing>
