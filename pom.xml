@@ -3,22 +3,31 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <repositories>
-        <repository>
-            <id>central</id>
-            <name>Maven Central</name>
-            <layout>default</layout>
-            <url>https://repo1.maven.org/maven2</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-
     <groupId>io.mtso</groupId>
     <artifactId>structure-validator</artifactId>
     <version>0.0.1</version>
     <packaging>pom</packaging>
+    <name>structure-validator</name>
+
+    <description>Utilities to deserialize JSON and validate with schemas.</description>
+    <url>https://github.com/mtso/structure-validator</url>
+    <scm>
+        <url>https://github.com/mtso/structure-validator</url>
+        <tag>HEAD</tag>
+    </scm>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>mtso</id>
+            <name>Matthew Tso</name>
+        </developer>
+    </developers>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
