@@ -13,6 +13,12 @@
     <url>https://github.com/mtso/structure-validator</url>
     <scm>
         <url>https://github.com/mtso/structure-validator</url>
+        <connection>
+            scm:git:git://github.com/mtso/structure-validator.git
+        </connection>
+        <developerConnection>
+            scm:git:ssh://git@github.com/mtso/structure-validator.git
+        </developerConnection>
         <tag>HEAD</tag>
     </scm>
     <licenses>
