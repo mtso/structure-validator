@@ -103,7 +103,7 @@
                     <plugin>
                         <groupId>org.jreleaser</groupId>
                         <artifactId>jreleaser-maven-plugin</artifactId>
-                        <version>snapshot</version>
+                        <version>1.4.0-SNAPSHOT</version>
                         <configuration>
                             <jreleaser>
                                 <signing>
