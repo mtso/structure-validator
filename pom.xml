@@ -19,7 +19,7 @@
         <developerConnection>
             scm:git:ssh://git@github.com/mtso/structure-validator.git
         </developerConnection>
-        <tag>main</tag>
+        <tag>HEAD</tag>
     </scm>
     <licenses>
         <license>
